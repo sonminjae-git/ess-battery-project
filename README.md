@@ -34,10 +34,9 @@ git clone https://github.com/sonminjae-git/ess-battery-project
 cd ess-battery-project
 uv venv --python 3.10
 uv pip install -r requirements.txt
-uv run jupyter notebook
 ```
 1. `data/README.md` 안내대로 `.mat` 파일을 `data/archive/`에 넣는다.
-2. `DAY1_miniproject.ipynb`를 열어 위에서부터 끝까지 실행한다(Run All).
+2. `DAY1_miniproject.ipynb`를 Jupyter나 VS Code 등으로 열어 위에서부터 끝까지 실행한다(Run All).
 3. `DAY2_modeling.ipynb`도 같은 방식으로 실행한다.
 
 Python 3.10, 노트북은 프로젝트 폴더에서 실행합니다. 첫 실행 시 `.mat`에서 필요한 필드만 읽어 `cache/`에 저장합니다.
