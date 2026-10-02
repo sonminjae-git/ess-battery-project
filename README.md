@@ -33,6 +33,7 @@
 git clone https://github.com/sonminjae-git/ess-battery-project
 cd ess-battery-project
 uv venv --python 3.10
+source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
 1. `data/README.md` 안내대로 `.mat` 파일을 `data/archive/`에 넣는다.
