@@ -1,0 +1,10 @@
+구분,MAPE (%),비고
+Train (Batch 1 CV),8.19,같은 충전방식끼리 묶은 5-fold CV 평균
+Valid (Batch 1 Hold-out),4.71,B1 7셀(충전방식 4개) hold-out
+Test (Batch 2),31.45,B1 전체 재학습 후 1회 평가
+Gap (Train-Valid),-3.48,(+) : 과적합 의심
+Gap (Valid-Test),26.74,(+) : 배치간 일반화 저하 의심
+Gap (Target-Test),22.35,Target : 원논문 9.1%
+Test (Batch 3),12.45,B3c37(노이즈 셀) 제외 시 12.32
+Gap (Batch2-Batch3),19.0,Test 성능 간 비교
+Gap (Target-Test B3),3.35,"Batch 3 기준, 원논문 성능 비교"
